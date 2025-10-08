@@ -6,7 +6,7 @@ const AppsList = () => {
     console.log(apps)
     return (
         <div>
-            
+            <h3>this is AppList</h3>
         </div>
     );
 };

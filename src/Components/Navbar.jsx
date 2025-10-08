@@ -6,9 +6,9 @@ const Navbar = () => {
 
     const [active, setActive] = useState("Home");
   const menuItems = [
-    { name: "Home", path: "/apps" },
-    { name: "Apps", path: "" },
-    { name: "Installation", path: "" }
+    { name: "Home", path: "/" },
+    { name: "Apps", path: "/allapps" },
+    { name: "Installation", path: "/installation" },
   ];
  
     return (
@@ -37,17 +37,18 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               {menuItems.map((item) => (
-                <li key={item}>
-                  <a
-                    onClick={() => setActive(item)}
+                <li key={item.name}>
+                  <Link
+                    to={item.path}
+                    onClick={() => setActive(item.name)}
                     className={
-                      active === item
+                      active === item.name
                         ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-lg font-semibold"
                         : "text-gray-800 text-lg font-semibold"
                     }
                   >
-                    {item}
-                  </a>
+                    {item.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -62,16 +63,17 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {menuItems.map((item) => (
-              <li key={item}>
-                <Link to={item.path}
-                  onClick={() => setActive(item)}
+              <li key={item.name}>
+                <Link
+                  to={item.path}
+                  onClick={() => setActive(item.name)}
                   className={
-                    active === item
-                      ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-lg font-semibold "
-                      : " text-gray-800 text-lg font-semibold"
+                    active === item.name
+                      ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-lg font-semibold"
+                      : "text-gray-800 text-lg font-semibold"
                   }
                 >
-                  {item}
+                  {item.name}
                 </Link>
               </li>
             ))}
@@ -79,7 +81,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            href="https://github.com/Abdul-Kader-Rimon" target='_blank'
+            href="https://github.com/Abdul-Kader-Rimon"
+            target="_blank"
             className="btn text-white  bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
           >
             <FaGithub />
