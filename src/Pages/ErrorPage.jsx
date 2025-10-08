@@ -20,8 +20,8 @@ const ErrorPage = () => {
             <p className="mt-4 text-gray-400 text-xl font-semibold">
               The page you are looking for is not available.
             </p>
-            <Link to={'/'}>   
-            <button className="btn mt-6 btn-primary">Go Back!</button>
+            <Link to={"/"}>
+              <button className="btn mt-6 btn-primary">Go Back!</button>
             </Link>
           </div>
         </main>

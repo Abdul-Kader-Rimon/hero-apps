@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
+import AppNotFound from "./AppNotFound";
 
 const AllApp = () => {
   const { apps, loading } = useApps();
@@ -12,9 +13,7 @@ const AllApp = () => {
 
   return (
     <div>
-      <h1 className="text-center text-4xl font-bold ">
-        Our All Applications
-      </h1>
+      <h1 className="text-center text-4xl font-bold mb-6 ">Our All Applications</h1>
       <p className="text-center text-gray-500">
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
@@ -33,11 +32,15 @@ const AllApp = () => {
         </label>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        {searchedApps.map((app) => (
-          <AppsCard key={app.id} apps={app} />
-        ))}
-      </div>
+      {searchedApps.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {searchedApps.map((app) => (
+            <AppsCard key={app.id} apps={app} />
+          ))}
+        </div>
+      ) : (
+        <AppNotFound />
+      )}
     </div>
   );
 };

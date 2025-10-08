@@ -5,35 +5,33 @@ import Home from "../Pages/Home";
 import AppsList from "../Pages/AppsList";
 import Installation from "../Pages/Installation";
 import AllApp from "../Pages/AllApp";
+import AppNotFound from "../Pages/AppNotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
-        element: <MainLayout />,
-        errorElement: <ErrorPage />,
-        hydrateFallbackElement: <p> Loading...</p>,
-        children: [
-        
-            {
-                index: true,
-                Component: Home,
-            },
-            {
-                path: "/apps",
-                element: <AppsList/>,
-            },
-            {
-                path: "/allapps",
-                element: <AllApp/>,
-            },
-            {
-                path: "/installation",
-                element: <Installation/>,
-            }
-             
-    ]
-  }
-   
+    element: <MainLayout />,
+    errorElement: <ErrorPage />,
+    hydrateFallbackElement: <p> Loading...</p>,
+    children: [
+      {
+        index: true,
+        Component: Home,
+      },
+      {
+        path: "/apps",
+        element: <AppsList />,
+      },
+      {
+        path: "/allapps",
+        element: <AllApp />,
+      },
+      {
+        path: "/installation",
+        element: <Installation />,
+      },
+    ],
+  },
 ]);
 
 export default router
