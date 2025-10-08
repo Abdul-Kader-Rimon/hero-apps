@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import logoImage from "../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router';
 const Navbar = () => {
 
     const [active, setActive] = useState("Home");
-    const menuItems = ["Home", "Apps", "Installation"];
-
+  const menuItems = [
+    { name: "Home", path: "/apps" },
+    { name: "Apps", path: "" },
+    { name: "Installation", path: "" }
+  ];
+ 
     return (
       <div className="navbar bg-base-100 max-w-11/12 md:max-w-10/12 lg:max-w-10/12 mx-auto ">
         <div className="navbar-start">
@@ -58,7 +63,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             {menuItems.map((item) => (
               <li key={item}>
-                <a
+                <Link to={item.path}
                   onClick={() => setActive(item)}
                   className={
                     active === item
@@ -67,7 +72,7 @@ const Navbar = () => {
                   }
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
