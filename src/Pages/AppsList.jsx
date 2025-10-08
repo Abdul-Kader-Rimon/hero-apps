@@ -20,7 +20,7 @@ const AppsList = () => {
       </div>
       <Link to={"/allapps"} >
         <div className="flex justify-center my-10">
-          <button className="btn  text-white  bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <button className="btn w-42 rounded-lg text-white  bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
             Show All
           </button>
         </div>
