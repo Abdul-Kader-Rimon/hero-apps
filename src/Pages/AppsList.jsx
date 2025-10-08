@@ -15,7 +15,7 @@ const AppsList = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
         {featuredApps.map((apps) => (
-          <AppsCard key={apps.id} apps={apps} />
+          <AppsCard key={apps.id} app={apps} />
         ))}
       </div>
       <Link to={"/allapps"} >

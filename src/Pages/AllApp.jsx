@@ -35,7 +35,7 @@ const AllApp = () => {
       {searchedApps.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {searchedApps.map((app) => (
-            <AppsCard key={app.id} apps={app} />
+            <AppsCard key={app.id} app={app} />
           ))}
         </div>
       ) : (

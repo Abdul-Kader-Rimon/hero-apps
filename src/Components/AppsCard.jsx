@@ -1,10 +1,14 @@
 import React from 'react';
 import { IoMdDownload } from 'react-icons/io';
 import { IoStar } from "react-icons/io5";
-const AppsCard = ({ apps }) => {
-    const {title,image,downloads,ratingAvg} = apps
+import { Link } from 'react-router';
+const AppsCard = ({ app }) => {
+  if (!app) return null;
+    const {title,image,downloads,ratingAvg , id } = app
     // console.log(apps)
-    return (
+  return (
+      <div>
+      <Link to={`/app/${id}`}>   
       <div className="card bg-base-100   shadow-sm hover:scale-105 transition ease-in-out rounded-xl">
         <figure className="h-52  flex items-center justify-center overflow-hidden">
           <img src={image} alt={title} />
@@ -21,6 +25,8 @@ const AppsCard = ({ apps }) => {
             </div>
           </div>
         </div>
+      </div>
+      </Link>
       </div>
     );
 };
