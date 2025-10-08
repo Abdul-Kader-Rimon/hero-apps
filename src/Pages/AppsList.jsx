@@ -6,8 +6,8 @@ const AppsList = () => {
     console.log(apps)
     return (
       <div>
-        <h1>Trending Apps</h1>
-        <p>Explore All Trending Apps on the Market developed by us</p>
+        <h1 className='text-center text-2xl font-bold'>Trending Apps</h1>
+        <p className='text-center text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
       </div>
     );
 };

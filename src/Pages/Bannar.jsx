@@ -4,7 +4,7 @@ import playStoreLogo from "../assets/playstore.png"
 import heroImage from "../assets/hero.png"
 const Bannar = () => {
   return (
-    <div className="">
+    <div>
       <div>
         <div className="hero bg-base-200  py-8 md:my-8 lg:py-20 ">
           <div className="hero-content text-center px-4 md:px-8 lg:px-16">
@@ -44,11 +44,11 @@ const Bannar = () => {
         </div>
       </div>
 
-      <div>
+      <div className="">
         <div>
           <img className="mx-auto" src={heroImage} alt="" />
         </div>
-        <div className=" lg:absolute w-full lg:left-0 lg:right-0 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center justify-center py-16 px-6">
+        <div className="w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center justify-center py-16 px-6">
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-center text-white">
               Trusted by Millions, Built for You
