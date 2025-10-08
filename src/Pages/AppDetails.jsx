@@ -61,7 +61,7 @@ const AppDetails = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="flex justify-center items-center">
               <button className="text-white text-lg font-semibold p-6 btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
                 Install Now ( {size} MB ){" "}
               </button>
