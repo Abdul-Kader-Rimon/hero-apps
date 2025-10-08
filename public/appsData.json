@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://i.ibb.co.com/chdqPYNW/download-2.jpg",
+    "title": "ChatMaster",
+    "companyName": "ChatMaster Inc.",
+    "id": 1,
+    "description": "ChatMaster is a feature-rich messaging app built to connect people across the globe. You can send text, voice notes, images, documents, or make video calls. It supports group chats, stickers, and reactions. ChatMaster ensures secure messaging through end-to-end encryption and allows disappearing messages for privacy. It also integrates with cloud backup so your conversations are safe. Whether you’re catching up with family or collaborating with colleagues, ChatMaster keeps communication seamless and fun with a clean, intuitive interface and low data usage.",
+    "size": 50,
+    "reviews": 12345,
+    "ratingAvg": 4.6,
+    "downloads": 1.2,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wNk0tC4r/download.png",
+    "title": "TaskFlow",
+    "companyName": "FlowSoft",
+    "id": 2,
+    "description": "TaskFlow is your personal productivity suite that helps you organize daily tasks, projects, and goals. You can create task lists, set due dates, attach files, and mark progress visually. TaskFlow syncs across devices so you never lose your to-dos. It also supports categories, reminders, and collaboration with shared tasks. The app offers analytics to see where you spend your time and suggests ways to optimize your workflow. TaskFlow is ideal for students, professionals, and anyone wanting to get organized and improve productivity.",
+    "size": 30,
+    "reviews": 6789,
+    "ratingAvg": 4.4,
+    "downloads": 0.85,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/r24s8z6Z/images.jpg",
+    "title": "FitTrack",
+    "companyName": "FitTrack Labs",
+    "id": 3,
+    "description": "FitTrack is a comprehensive fitness and health tracking app that logs your workouts, steps, calories burned, and sleep patterns. You can set fitness goals, follow workout plans, and monitor your heart rate. It integrates with wearable devices and offers charts to visualize your progress over time. FitTrack also gives health tips, reminders, and motivational challenges to help you stay consistent. Whether you’re aiming to lose weight, build muscle, or improve stamina, FitTrack supports your journey with actionable insights and a smooth user experience.",
+    "size": 55,
+    "reviews": 10321,
+    "ratingAvg": 4.7,
+    "downloads": 2.2,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q4wkB4H/images-1.jpg",
+    "title": "TuneStream",
+    "companyName": "TuneStream Media",
+    "id": 4,
+    "description": "TuneStream offers unlimited music streaming, curated playlists, and personalized recommendations. Explore new artists, genres, and mood-based mixes. You can download songs for offline listening or stream in high quality. TuneStream uses smart algorithms to learn your taste and suggest tracks you’ll love. It also supports creating and sharing playlists with friends and following artists to stay updated on new releases. Whether you’re relaxing, exercising, or working, TuneStream sets the right soundtrack for your day.",
+    "size": 65,
+    "reviews": 14200,
+    "ratingAvg": 4.5,
+    "downloads": 3.5,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkgHRBtf/download-3.jpg",
+    "title": "PhotoCraft",
+    "companyName": "Visual Studio",
+    "id": 5,
+    "description": "PhotoCraft is a powerful photo editing app equipped with filters, adjustment tools, retouching, layers, and effects. You can edit with precision, remove unwanted objects, apply creative styles, and export in high resolution. It supports RAW file editing and batch processing for speed. PhotoCraft also has built-in templates for social media posts and direct share options. Its intuitive UI ensures beginners and professionals work smoothly. Whether you want to enhance portraits or design digital art, PhotoCraft is a versatile and creative companion.",
+    "size": 90,
+    "reviews": 11000,
+    "ratingAvg": 4.6,
+    "downloads": 1.8,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BVVq3gXz/images.png",
+    "title": "ShopEase",
+    "companyName": "EaseCommerce",
+    "id": 6,
+    "description": "ShopEase lets you browse products from top brands, compare prices, and shop conveniently. It shows deals, discounts, and cashback offers. You can save favorites, track prices, and receive alerts. ShopEase supports secure checkout with multiple payment methods and real-time order tracking. With powerful search filters and recommendations, you always find what you want. The app also features user reviews and ratings to guide your purchases. Whether you’re buying electronics, fashion, or groceries, ShopEase makes online shopping smarter and smoother.",
+    "size": 50,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 2.7,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BVVq3gXz/images.png",
+    "title": "LearnHub",
+    "companyName": "HubEd",
+    "id": 7,
+    "description": "LearnHub offers thousands of courses in technology, business, arts, and more. It includes video lessons, quizzes, and hands-on projects. LearnHub adapts to your pace, tracking progress and recommending next steps. You can earn certificates and interact in forums. It also supports offline downloads so you can learn without internet. Whether you want to learn programming, design, or digital marketing, LearnHub guides you with structured content, expert instructors, and community support.",
+    "size": 70,
+    "reviews": 12500,
+    "ratingAvg": 4.8,
+    "downloads": 5.0,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 7900 }
+    ]
+  },
+  {
+    "image": "https: //i.ibb.co.com/23tVzCSb/download-2.png",
+    "title": "TravelGo",
+    "companyName": "GoTravel",
+    "id": 8,
+    "description": "TravelGo is your all-in-one travel companion. Plan itineraries, book flights and hotels, and discover local attractions. The app gives offline maps, real-time alerts, and currency converters. You can share plans with friends and track expenses. TravelGo also suggests hidden gems and traveling tips based on your interests. Whether you’re backpacking or planning a luxury trip, TravelGo makes every journey smooth and memorable.",
+    "size": 60,
+    "reviews": 8300,
+    "ratingAvg": 4.5,
+    "downloads": 1.5,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3550 }
+    ]
+  },
+  {
+    "image": "https: //i.ibb.co.com/mrR7tHCr/217x0w.webp",
+    "title": "MoneyWise",
+    "companyName": "WiseFin",
+    "id": 9,
+    "description": "MoneyWise helps you manage your finances, budget your expenses, and track incomes. You can categorize transactions, set saving goals, and view charts. The app also gives notifications for bills and advice to optimize spending. You can link bank accounts securely and get alerts for unusual activities. For users wanting to improve financial health, MoneyWise offers insights, summaries, and tips based on your behavior. It’s designed to simplify money management and help you make better decisions.",
+    "size": 45,
+    "reviews": 6200,
+    "ratingAvg": 4.3,
+    "downloads": 0.9,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "image": "https: //i.ibb.co.com/7dDgJyPH/217x0w-1.webp",
+    "title": "GameOn",
+    "companyName": "PlayZone",
+    "id": 10,
+    "description": "GameOn is a mobile gaming hub where you can play casual games, compete in tournaments, and connect with gamers. It offers leaderboards, live streaming, and reward challenges. You can try new games curated by genre or favorites. The app also has in-app events, social features, and progress sync across devices. For gamers looking for community and variety, GameOn brings fun, competition, and discovery in one platform.",
+    "size": 100,
+    "reviews": 16000,
+    "ratingAvg": 4.7,
+    "downloads": 4.0,
+    "ratings": [
+      { "name": "1 star", "counts": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "image": "https: //i.ibb.co.com/VRLFNF4/download-4.jpg",
+    "title": "MediLink",
+    "companyName": "HealthNet",
+    "id": 11,
+    "description": "MediLink connects you with medical professionals, lets you book appointments, and manage your prescriptions. The app stores your medical history and sends reminders for medication and checkups. You can chat with doctors, get lab results, and receive health tips. MediLink supports telemedicine consultations and integrates wearable health data. It’s designed to bring healthcare access to your fingertips, especially for remote areas or those needing continuous monitoring.",
+    "size": 70,
+    "reviews": 7100,
+    "ratingAvg": 4.5,
+    "downloads": 1.6,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https: //i.ibb.co.com/4nkZrW8L/download-3.png",
+    "title": "FoodFinder",
+    "companyName": "TasteTech",
+    "id": 12,
+    "description": "FoodFinder helps you discover nearby restaurants, browse menus, and place orders for delivery or pickup. It includes ratings, reviews, and photos from other users. You can save favorites, get deals, and track orders live. FoodFinder also suggests dishes based on your preferences and dietary restrictions. Whether you want local cuisine or international flavors, FoodFinder connects you with food you’ll love, conveniently and reliably.",
+    "size": 55,
+    "reviews": 11000,
+    "ratingAvg": 4.6,
+    "downloads": 3.1,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5310 }
+    ]
+  },
+  {
+    "image": "https: //i.ibb.co.com/1Jd5pdL7/download-4.png",
+    "title": "BookShelf",
+    "companyName": "ReadersHub",
+    "id": 13,
+    "description": "BookShelf is an e-reading app with thousands of ebooks and audiobooks. You can customize reading preferences, download for offline access, highlight, annotate, and sync across devices. The app offers recommendations based on your reading habits and access to author interviews and community reviews. Whether you enjoy fiction, non-fiction, or self-help, BookShelf brings literature to you with an elegant and user-friendly interface.",
+    "size": 50,
+    "reviews": 7300,
+    "ratingAvg": 4.6,
+    "downloads": 1.4,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/r97m0P9/download.jpg",
+    "title": "WeatherEye",
+    "companyName": "SkyWatch",
+    "id": 14,
+    "description": "WeatherEye delivers detailed weather forecasts, radar maps, and alerts. Get hourly, daily, and weekly forecasts along with precipitation, wind, humidity, and UV index. It gives real-time severe weather warnings and supports customization for your location. You can view weather trends and receive widget updates. Whether planning your day or preparing for unexpected changes, WeatherEye helps you stay informed and safe.",
+    "size": 45,
+    "reviews": 5300,
+    "ratingAvg": 4.2,
+    "downloads": 1.2,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MrVF9hr/download-1.jpg",
+    "title": "SecureVault",
+    "companyName": "CyberSafe",
+    "id": 15,
+    "description": "SecureVault is a security app that helps you protect passwords, files, and personal data with encryption and secure storage. You can store credentials, notes, documents, and generate strong passwords. The app also offers biometric unlock, backup, and remote wipe. SecureVault monitors suspicious access and gives you alerts. Whether you’re managing multiple accounts or sensitive files, SecureVault offers peace of mind in a sleek, secure interface.",
+    "size": 48,
+    "reviews": 4800,
+    "ratingAvg": 4.5,
+    "downloads": 0.9,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  }
+]
