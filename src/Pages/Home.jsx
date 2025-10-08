@@ -1,10 +1,11 @@
 import React from 'react';
 import AppsList from './AppsList';
+import Bannar from './Bannar';
 
 const Home = () => {
     return (
         <div>
-            <h1>this is home</h1>
+            <Bannar/>
             <AppsList/>
         </div>
     );

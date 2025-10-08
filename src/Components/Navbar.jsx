@@ -54,11 +54,13 @@ const Navbar = () => {
             </ul>
           </div>
           {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
+                 
           <div>
-            <a className="flex justify-center items-center gap-2 text-xl md:text-2xl  lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+            <Link to={"/"} className="flex justify-center items-center gap-2 text-xl md:text-2xl  lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
               <img className="h-8 w-8" src={logoImage} alt="" /> HERO.IO
-            </a>
+            </Link>
           </div>
+           
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
