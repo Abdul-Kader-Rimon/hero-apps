@@ -2,19 +2,27 @@ import React, { useEffect, useState } from "react";
 import { loadInstalled, removeInstallation } from "../utils/installation";
 import { FaStar } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
+import LoadingPage from "../Components/LoadingPage";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
+  const [loading, setLoading] = useState(true);
+
+
 
 
   useEffect(() => {
-    setInstalledApps(loadInstalled());
+    const apps = loadInstalled();
+    setInstalledApps(apps);
+    setLoading(false);
   }, []);
 
-  const handleRemove = (id) => {
+  const handleRemove = (id , title) => {
     removeInstallation(id);
     setInstalledApps((prev) => prev.filter((app) => app.id !== id));
+    toast.success(`${title} Uninstalled Successfully !`)
   };
 
   const sortApps = (() => {
@@ -27,7 +35,7 @@ const Installation = () => {
     }
   })();
 
-  if (!installedApps.length) return <p>No Installed App</p>;
+  if (!installedApps.length && loading) return <LoadingPage/>;
 
   return (
     <div>
@@ -90,7 +98,7 @@ const Installation = () => {
             </div>
             <div className="md:pr-4 flex items-center gap-3">
               <button
-                onClick={() => handleRemove(app.id)}
+                onClick={() => handleRemove(app.id , app.title)}
                 className="btn bg-[#00D390] text-white font-semibold md:text-xl md:p-6 rounded-lg"
               >
                 Uninstall

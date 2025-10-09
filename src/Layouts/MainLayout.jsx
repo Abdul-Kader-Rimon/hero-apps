@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import { Outlet } from 'react-router';
 import Footer from '../Components/Footer';
+import { ToastContainer } from 'react-toastify';
 
 const MainLayout = () => {
   return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
         </div>
       </div>
       <Footer />
+      <ToastContainer position='top-center' autoClose={2000} />
     </div>
   );
 };

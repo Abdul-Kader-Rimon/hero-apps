@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
 import AppNotFound from "./AppNotFound";
+import LoadingPage from "../Components/LoadingPage";
 
 const AllApp = () => {
   const { apps, loading } = useApps();
@@ -11,6 +12,7 @@ const AllApp = () => {
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
 
+  if(loading) return <LoadingPage/>
   return (
     <div>
       <h1 className="text-center text-4xl font-bold mb-6 ">Our All Applications</h1>

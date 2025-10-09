@@ -2,9 +2,13 @@ import React from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../Components/AppsCard";
 import { Link } from "react-router";
+import LoadingPage from "../Components/LoadingPage";
+import ErrorPage from "./ErrorPage";
 
 const AppsList = () => {
   const { apps, loading, error } = useApps();
+  if (loading) return <LoadingPage />
+  if(error) return <ErrorPage/>
   const featuredApps = apps.slice(0, 8);
 
   return (

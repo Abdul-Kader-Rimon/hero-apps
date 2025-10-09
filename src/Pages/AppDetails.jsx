@@ -8,6 +8,7 @@ import { GoCodeReview } from "react-icons/go";
 import { toast } from "react-toastify";
 import ReviewChart from "./ReviewChart";
 import { addInstallation, loadInstalled } from "../utils/installation";
+import LoadingPage from "../Components/LoadingPage";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -24,7 +25,7 @@ const AppDetails = () => {
     setInstalled(exists);
   }, [app])
   
-  if (loading) return <p>Loadding...</p>;
+  if (loading) return <LoadingPage/>;
   if (!app) return <AppNotFound />;
 
   const {
