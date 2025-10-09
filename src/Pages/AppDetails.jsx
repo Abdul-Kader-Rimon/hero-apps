@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
 import { useParams } from "react-router";
 import AppNotFound from "./AppNotFound";
@@ -7,15 +7,24 @@ import { MdReviews } from "react-icons/md";
 import { GoCodeReview } from "react-icons/go";
 import { toast } from "react-toastify";
 import ReviewChart from "./ReviewChart";
+import { addInstallation, loadInstalled } from "../utils/installation";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
   const [installed, setInstalled] = useState(false);
 
-  if (loading) return <p>Loadding...</p>;
-
+  
   const app = apps.find((a) => a.id === Number(id));
+
+  useEffect(() => {
+    if(!app) return
+    const installedApps = loadInstalled()
+    const exists = installedApps.some(a => a.id === app.id);
+    setInstalled(exists);
+  }, [app])
+  
+  if (loading) return <p>Loadding...</p>;
   if (!app) return <AppNotFound />;
 
   const {
@@ -30,7 +39,9 @@ const AppDetails = () => {
     description
   } = app;
 
+
   const handleInstall = () => {
+    addInstallation(app);
     setInstalled(true);
     toast.success(`${title} App Installed Successfully!`, {
       position: "top-center",
@@ -84,12 +95,11 @@ const AppDetails = () => {
             <div className="flex justify-center md:justify-start lg:justify-start items-center">
               <button
                 onClick={() => handleInstall()}
-                // disabled={installed}
-                className={`text-white text-lg font-semibold p-6 btn ${
-                  installed
-                    ? "bg-purple-500 cursor-not-allowed disabled"
-                    : "bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+                disabled={installed}
+                className={`text-white text-lg font-semibold p-6 btn 
+                   disabled:bg-purple-500 disabled:cursor-not-allowed bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
                 }`}
+
               >
                 {installed ? "Installed" : `Install Now ( ${size} MB )`}
               </button>
