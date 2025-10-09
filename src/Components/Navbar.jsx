@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import logoImage from "../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router';
+import {  IoHomeOutline } from "react-icons/io5";
+import { FaAppStoreIos } from 'react-icons/fa6';
+import { MdInstallDesktop } from 'react-icons/md';
 const Navbar = () => {
 
     const [active, setActive] = useState("Home");
   const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "Apps", path: "/allapps" },
-    { name: "Installation", path: "/installation" },
+    { name: "Home", path: "/", icon: <IoHomeOutline /> },
+    { name: "Apps", path: "/allapps", icon: <FaAppStoreIos /> },
+    { name: "Installation", path: "/installation", icon: <MdInstallDesktop /> },
   ];
  
     return (
@@ -47,20 +50,22 @@ const Navbar = () => {
                         : "text-gray-800 text-lg font-semibold"
                     }
                   >
-                    {item.name}
+                    {item.icon} {item.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
           {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-                 
+
           <div>
-            <Link to={"/"} className="flex justify-center items-center gap-2 text-xl md:text-2xl  lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+            <Link
+              to={"/"}
+              className="flex justify-center items-center gap-2 text-xl md:text-2xl  lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+            >
               <img className="h-8 w-8" src={logoImage} alt="" /> HERO.IO
             </Link>
           </div>
-           
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -71,11 +76,11 @@ const Navbar = () => {
                   onClick={() => setActive(item.name)}
                   className={
                     active === item.name
-                      ? "text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-lg font-semibold"
+                      ? "  text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-lg font-semibold"
                       : "text-gray-800 text-lg font-semibold"
                   }
                 >
-                  {item.name}
+                  {item.icon} {item.name}
                 </Link>
               </li>
             ))}

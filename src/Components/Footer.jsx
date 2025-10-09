@@ -1,19 +1,34 @@
 import React from 'react';
 import logoImage from "../assets/logo.png"
+import { Link } from 'react-router';
 
 const Footer = () => {
     return (
       <footer className="footer footer-horizontal footer-center  text-white   rounded p-10 bg-gray-800">
         <nav className="grid grid-flow-col gap-6 text-lg font-bold ">
-          <a className="link link-hover text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">Home</a>
-          <a className="link link-hover text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">Apps</a>
-          <a className="link link-hover text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">Installation</a>
+          <Link
+            to={"/"}
+            className="link link-hover text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
+            Home
+          </Link>
+          <Link
+            to={"/allapps"}
+            className="link link-hover text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
+            Apps
+          </Link>
+          <Link
+            to={"/installation"}
+            className="link link-hover text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
+            Installation
+          </Link>
         </nav>
         <div>
-          <a className="flex justify-center items-center gap-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-            
+          <Link to={"/"} className="flex justify-center items-center gap-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
             <img className="h-10 w-10" src={logoImage} alt="" /> HERO.IO
-          </a>
+          </Link>
         </div>
         <nav>
           <div className="grid grid-flow-col gap-4">
