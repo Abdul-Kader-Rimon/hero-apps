@@ -52,12 +52,12 @@ const AllApp = () => {
         </label>
       </div>
 
-      {searchLoading && <LoadingPage />}
-      {searchedApps.length > 0 ? (
+      {searchLoading ? (<LoadingPage /> ) :
+      searchedApps.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {searchedApps.map((app) => (
-            <AppsCard key={app.id} app={app} />
-          ))}
+        {searchedApps.map((app) => (
+          <AppsCard key={app.id} app={app} />
+        ))}
         </div>
       ) : (
         <AppNotFound />
