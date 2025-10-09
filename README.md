@@ -3,7 +3,7 @@
 Hero apps is a modern web apps platform . Hero Apps  provide apps search , install different apps and resposive interface all in one place. 
 
 
-🌐 **Live Site:** [https://hero-apps-akr.netlify.app/]
+🌐 **Live Site:**  [https://hero-apps-akr.netlify.app/]
 
 
 ## Hero apps Features 
