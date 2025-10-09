@@ -268,5 +268,186 @@
       { "name": "4 star", "count": 1500 },
       { "name": "5 star", "count": 2200 }
     ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KzGy2h9Z/download-5.png",
+    "title": "NoteWave",
+    "companyName": "NoteWave Inc.",
+    "id": 16,
+    "description": "NoteWave is a simple and elegant note-taking app that helps you capture thoughts, organize lists, and sync data securely across all your devices. It supports handwriting, voice notes, and markdown editing for productivity lovers.",
+    "size": 35,
+    "reviews": 85,
+    "ratingAvg": 4.7,
+    "downloads": 1.8,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FLzV5S6z/download-6.png",
+    "title": "FitBuddy",
+    "companyName": "FitBuddy Labs",
+    "id": 17,
+    "description": "FitBuddy is your fitness assistant that tracks workouts, steps, calories, and sleep. It provides personalized exercise plans and integrates with smartwatches to help you stay motivated and achieve your goals.",
+    "size": 48,
+    "reviews": 95,
+    "ratingAvg": 4.8,
+    "downloads": 2.4,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 6700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ymVxYSBY/download-6.jpg",
+    "title": "PhotoFix",
+    "companyName": "PixCraft",
+    "id": 18,
+    "description": "PhotoFix lets you enhance and retouch photos with AI tools, remove backgrounds, and apply artistic filters instantly. Perfect for both casual users and professional photographers.",
+    "size": 52,
+    "reviews": 110,
+    "ratingAvg": 4.5,
+    "downloads": 3.1,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zVhKQv3V/download-7.png",
+    "title": "SnapVerse",
+    "companyName": "SnapVerse Media",
+    "id": 19,
+    "description": "SnapVerse is a social video sharing app where users can create, share, and explore creative short videos. It features trending challenges, filters, and powerful video editing tools.",
+    "size": 60,
+    "reviews": 135,
+    "ratingAvg": 4.3,
+    "downloads": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 6900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4ZhMMVvs/download-7.jpg",
+    "title": "ShopX",
+    "companyName": "ShopX Global",
+    "id": 20,
+    "description": "ShopX lets you explore trending fashion, gadgets, and more with real-time deals and fast delivery. Enjoy secure checkout and AI-powered product recommendations.",
+    "size": 47,
+    "reviews": 155,
+    "ratingAvg": 4.6,
+    "downloads": 6.2,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 8100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HLdYRKVw/download-8.png",
+    "title": "FaceBook",
+    "companyName": "MetaVision",
+    "id": 21,
+    "description": "FaceBook is a social networking app that keeps you connected with friends, family, and communities. Share posts, photos, and stories while interacting via comments and reactions.",
+    "size": 85,
+    "reviews": 500,
+    "ratingAvg": 4.7,
+    "downloads": 15.0,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C3mc87JZ/download-8.jpg",
+    "title": "ChatWave",
+    "companyName": "WaveSoft",
+    "id": 22,
+    "description": "ChatWave is a messaging app offering text, voice, and video communication with end-to-end encryption. Create group chats, share files, and enjoy seamless global connectivity.",
+    "size": 60,
+    "reviews": 420,
+    "ratingAvg": 4.8,
+    "downloads": 18.0,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GfwDDpQK/download-10.png",
+    "title": "InstaSnap",
+    "companyName": "SnapVision",
+    "id": 23,
+    "description": "InstaSnap is a photo and video sharing app where users can post stories, reels, and photos. Discover trends, follow creators, and interact with likes and comments.",
+    "size": 75,
+    "reviews": 380,
+    "ratingAvg": 4.6,
+    "downloads": 12.5,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mVgz1yjJ/download-9.jpg",
+    "title": "ClipRush",
+    "companyName": "ByteStream Media",
+    "id": 24,
+    "description": "ClipRush is a short video platform where users can create, watch, and share short-form videos. It offers trending challenges, filters, and AI-based recommendations.",
+    "size": 65,
+    "reviews": 450,
+    "ratingAvg": 4.7,
+    "downloads": 14.0,
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/F42r1jpp/download-9.png",
+    "title": "StreamTube",
+    "companyName": "TubeMedia",
+    "id": 25,
+    "description": "StreamTube is a video streaming platform offering millions of videos across categories like music, entertainment, learning, and more. Subscribe, comment, and create playlists for a personalized experience.",
+    "size": 90,
+    "reviews": 600,
+    "ratingAvg": 4.8,
+    "downloads": 20.0,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 28000 }
+    ]
   }
+
 ]
