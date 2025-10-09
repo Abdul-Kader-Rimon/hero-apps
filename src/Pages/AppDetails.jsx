@@ -70,11 +70,11 @@ const AppDetails = () => {
             </div>
             <div>
               <div className="grid  grid-rows-1 md:grid-cols-3 lg:grid-cols-3 gap-10 ">
-                <div className="lg:p-12 text-center flex flex-col justify-center items-center ">
+                <div className="lg:p-12 text-center flex flex-col justify-center items-center">
                   <p className="text-3xl mb-4 text-green-500">
                     <FaDownload />
                   </p>
-                  <p className=" mb-4 opacity-50 ">Downloads</p>
+                  <p className=" mb-4 opacity-50 lg:py-3 ">Downloads</p>
                   <h1 className="text-6xl font-bold mb-4">{downloads}M</h1>
                 </div>
                 <div className="lg:p-12 text-center flex flex-col justify-center items-center ">
